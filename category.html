@@ -1,0 +1,81 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Venia Store</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="headerContainer"></div>
+    <div class="category-section-header">
+        <div class="container-fluid ">
+            <div class="row">
+                <div class="col categories-name" id="category-name">
+
+
+                </div>
+
+                <div class="col category-img-responsive">
+                    <img src="" alt="img" id="category-img">
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <section class="products-section" style="display: flex;">
+        <div class="sidebar-tools p-5 col-md-4">
+            <div class="navigation-text">
+                <small>
+                    <span>Clothing /</span>
+                    <span id="breadcrumb-category" class="text-muted"></span>
+                </small>
+            </div>
+            <div class="filter-container mt-5" style="display: flex;flex-direction: column;">
+                <span>Filters</span>
+                <span class="line-break"></span>
+                <span>Categories</span>
+
+                <label>
+                    <input type="checkbox" class="filter" value="option1"> Option 1
+                </label>
+                <label>
+                    <input type="checkbox" class="filter" value="option2"> Option 2
+                </label>
+                <label>
+                    <input type="checkbox" class="filter" value="option3"> Option 3
+                </label>
+                <button id="applyFilters">Apply Filters</button>
+            </div>
+
+
+        </div>
+
+        <!-- Product Grid Section -->
+        <section class="product-grid">
+            <div class="product-header">
+                <span>38 Results</span>
+                <select name="sort" id="sort-options">
+                    <option value="price">Sort by Price</option>
+                    <option value="popularity">Sort by Popularity</option>
+                    <option value="rating">Sort by Rating</option>
+                </select>
+            </div>
+            <div class="products-container row" id="products-container">
+                <!-- Products will be dynamically generated here -->
+            </div>
+        </section>
+    </section>
+
+
+
+    <div id="footerContainer"></div>
+</body>
+<script src="headerLoader.js"></script>
+<script src="category.js"></script>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>

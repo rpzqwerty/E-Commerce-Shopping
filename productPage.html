@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Page</title>
+    <link rel="stylesheet" href="productPage.css">
+</head>
+
+<body>
+    <div id="headerContainer"></div>
+    <div class="container-fluid mt-5">
+        <!-- Product Details Section -->
+        <section class="product-details">
+            <div class="product-gallery">
+                <div class="thumbnail-list">
+                    <img src="https://via.placeholder.com/80x120" alt="Thumbnail 1" class="thumbnail">
+                    <img src="https://via.placeholder.com/80x120" alt="Thumbnail 2" class="thumbnail" id="thumbnail-2"
+                        width="80" height="120">
+                    <img src="https://via.placeholder.com/80x120" alt="Thumbnail 3" class="thumbnail" id="thumbnail-3"
+                        width="80" height="120">
+                    <img src="https://via.placeholder.com/80x120" alt="Thumbnail 4" class="thumbnail" id="thumbnail-4"
+                        width="80" height="120">
+                    <img src="https://via.placeholder.com/400" alt="Thumbnail " class="thumbnail" width="80"
+                        height="120">
+                </div>
+                <div class="main-image">
+                    <img src="https://via.placeholder.com/400x600" alt="Main Product Image" id="product-main-image">
+                </div>
+            </div>
+
+            <div class="product-info">
+                <nav class="breadcrumb" style="background-color: white">
+                    <a href="#">Clothing</a> / <a href="#">Women's</a> / <a href="#">Outerwear</a>
+                </nav>
+                <h1>BIYLACLESEN Women's 3-in-1 Snowboard Jacket Winter Coats</h1>
+                <p class="price">$95.00</p>
+                <div class="rating">
+                    <span>&#9733;&#9733;&#9733;&#9733;&#9734;</span>
+                    <a href="#">(175 reviews)</a>
+                </div>
+                <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor
+                    labore et dolore magna.</p>
+                <div class="quantity-selector">
+                    <button type="button" class="btn btn-secondary btn-sm rounded-circle" id="decrease-qty">-</button>
+                    <input type="text" id="quantity" value="1">
+                    <button type="button" class="btn btn-secondary btn-sm rounded-circle" id="increase-qty">+</button>
+                </div>
+                <button type="button" class="btn btn-primary col-md-7">Add to Cart</button>
+                <div class="actions">
+                    <span class="save-icon"></button>
+                        <button class="btn secondary-btn">Share</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="product-description">
+            <div class="product">
+                <h1 style="
+                font-size: 2rem;
+                font-weight: bolder; 
+            ">BIYLACLESEN Women's 3-in-1 Snowboard Jacket Winter Coats</h1>
+            </div>
+            <h2>Description</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor labore et dolore magna.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor labore et dolore magna.
+            </p>
+            <div class="bar">
+            </div>
+        </section>
+    </div>
+    <div id="footerContainer"></div>
+
+
+    <script src="productPage.js"></script>
+    <script src="headerLoader.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,14 @@
+/* Custom styles for cart items if needed */
+.cart-item {
+    margin-bottom: 15px;
+}
+.cart-item img {
+    max-width: 100px;
+    border-radius: 5px;
+}
+.quantity-control button {
+    background-color: transparent;
+    border: none;
+    font-size: 1.25rem;
+    font-weight: bold;
+}
